@@ -114,7 +114,8 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                       borderRadius: const BorderRadius.only(
                           topRight: Radius.circular(75))),
                   child: AnimatedCrossFade(
-                    firstChild: Padding(
+                    firstChild:
+                    Padding(
                       padding: const EdgeInsets.only(top: 50, left: 150),
                       child: Text(
                         "Sign in ",
@@ -124,7 +125,8 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                             color: ColorsManager.signin),
                       ),
                     ),
-                    secondChild: Column(
+                    secondChild:
+                    Column(
                       children: [
                         Stack(children: [
                           Row(
@@ -235,7 +237,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                                     child: Padding(
                                       padding: const EdgeInsets.only(top: 30),
                                       child: Container(
-                                        decoration: BoxDecoration(
+                                         decoration: BoxDecoration(
                                             color:
                                                 ColorsManager.ContenirWelcome,
                                             borderRadius:
@@ -264,7 +266,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                                               fontSize: 16,
                                               fontWeight: FontWeight.bold),
                                         )),
-                                  )
+                                  ),
                                 ],
                               ),
                               Column(
@@ -368,7 +370,7 @@ class _WelcomeState extends State<Welcome> with SingleTickerProviderStateMixin {
                           ),
                         ),
                       ],
-                    ),
+                     ),
                     crossFadeState: showfirst
                         ? CrossFadeState.showFirst
                         : CrossFadeState.showSecond,

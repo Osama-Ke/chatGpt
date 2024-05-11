@@ -1,3 +1,4 @@
+/*
 part of 'test_bloc.dart';
 
 @immutable
@@ -8,3 +9,4 @@ class TestInitial extends TestState {
 
   TestInitial(this.counter);
 }
+*/
